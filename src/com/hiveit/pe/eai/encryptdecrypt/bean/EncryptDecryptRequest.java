@@ -5,7 +5,7 @@ public class EncryptDecryptRequest {
 	private String codEncrypt;
 	private String codDecrypt;
 	private byte[] key;
-	private String typeTest;
+	private String typeOpc;
 	
 	public String getCodEncrypt() {
 		return codEncrypt;
@@ -25,10 +25,11 @@ public class EncryptDecryptRequest {
 	public void setKey(byte[] key) {
 		this.key = key;
 	}
-	public String getTypeTest() {
-		return typeTest;
+	public String getTypeOpc() {
+		return typeOpc;
 	}
-	public void setTypeTest(String typeTest) {
-		this.typeTest = typeTest;
-	}	
+	public void setTypeOpc(String typeOpc) {
+		this.typeOpc = typeOpc;
+	}
+	
 }
